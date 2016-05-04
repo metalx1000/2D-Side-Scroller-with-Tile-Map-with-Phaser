@@ -21,6 +21,8 @@ function create() {
   players = this.game.add.group();
   players.enableBody = true;
   player(100,100,"player");
+  //go fullscreen on click
+  fsClick();
   cursors = game.input.keyboard.createCursorKeys();
 }
 
